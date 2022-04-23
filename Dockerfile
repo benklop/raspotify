@@ -11,12 +11,15 @@ RUN apt-get update \
         build-essential \
         libasound2-dev \
         libpulse-dev \
+        libavahi-compat-libdnssd-dev \
         crossbuild-essential-arm64 \
         libasound2-dev:arm64 \
         libpulse-dev:arm64 \
+        libavahi-compat-libdnssd-dev:arm64 \
         crossbuild-essential-armhf \
         libasound2-dev:armhf \
         libpulse-dev:armhf \
+        libavahi-compat-libdnssd-dev:armhf \
         curl \
         git \
         pandoc \

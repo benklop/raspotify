@@ -1,4 +1,4 @@
-.PHONY: all armhf arm64 amd64 clean distclean
+.PHONY: all shell armhf arm64 amd64 clean distclean
 .DEFAULT_GOAL := all
 
 RASPOTIFY_AUTHOR?=David Cooper <david@dtcooper.com>
